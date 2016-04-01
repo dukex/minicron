@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
+
+require 'bundler'
+Bundler.setup
+
 require 'insidious'
 require 'minicron'
 require 'minicron/cli'
