@@ -1,1 +1,1 @@
-web: minicron server start --port $PORT --path config/minicron.toml --debug --verbose
+web: bundle exec ./bin/minicron server start --port $PORT --config config/minicron.toml --debug --verbose
